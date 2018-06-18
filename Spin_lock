@@ -1,11 +1,24 @@
-In software engineering, a spinlock is a lock which causes a thread trying to acquire it to simply wait in a loop ("spin") while repeatedly checking if the lock is available. Since the thread remains active but is not performing a useful task, the use of such a lock is a kind of busy waiting.
+In software engineering, a spinlock is a lock which causes a thread trying to acquire it to simply wait in a loop ("spin") 
+while repeatedly checking if the lock is available. Since the thread remains active but is not performing a useful task, 
+the use of such a lock is a kind of busy waiting.
 
-Once acquired, spinlocks will usually be held until they are explicitly released, although in some implementations they may be automatically released if the thread being waited on (that which holds the lock) blocks, or "goes to sleep"
+Once acquired, spinlocks will usually be held until they are explicitly released,
+ although in some implementations they may be automatically released
+ if the thread being waited on (that which holds the lock) blocks, or "goes to sleep"
 
-When you use regular locks (mutexes, critical sections etc), operating system puts your thread in the WAIT state and preempts it by scheduling other threads on the same core. This has a performance penalty if the wait time is really short, because your thread now has to wait for a preemption to receive CPU time again.
+When you use regular locks (mutexes, critical sections etc), 
+operating system puts your thread in the WAIT state and preempts it by scheduling other threads on the same core.
+This has a performance penalty if the wait time is really short,
+ because your thread now has to wait for a preemption to receive CPU time again.
 
-Spinlocks don't cause preemption but wait in a loop ("spin") till the other core releases the lock. This prevents the thread from losing its quantum and continue as soon as the lock gets released. The simple mechanism of spinlocks allow a kernel to utilize it in almost any state.
+Spinlocks don't cause preemption but wait in a loop ("spin") till the other core releases the lock.
+ This prevents the thread from losing its quantum and continue as soon as the lock gets released. 
+The simple mechanism of spinlocks allow a kernel to utilize it in almost any state.
 
-Spinlocks are only useful in places where anticipated waiting time is shorter than a quantum (read: milliseconds) and preemption doesn't make much sense (e.g. kernel objects aren't available).
+Spinlocks are only useful in places where anticipated waiting time is shorter than a quantum (read: milliseconds)
+ and preemption doesn't make much sense (e.g. kernel objects aren't available).
 
-If waiting time is unknown, or if you're in user mode Spinlocks aren't efficient. You consume 100% CPU time on the waiting core while checking if a spinlock is available. You prevent other threads from running on that core till your quantum expires. This scenario is only feasible for short bursts at kernel level and unlikely an option for a user-mode application.
+If waiting time is unknown, or if you're in user mode Spinlocks aren't efficient. 
+You consume 100% CPU time on the waiting core while checking if a spinlock is available. 
+You prevent other threads from running on that core till your quantum expires. 
+This scenario is only feasible for short bursts at kernel level and unlikely an option for a user-mode application.
