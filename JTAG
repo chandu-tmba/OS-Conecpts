@@ -1,0 +1,9 @@
+
+The JTAG has an unique interface which enables you to debug the hardware easily in real time. 
+It can directly control the clock cycles of provided controller through software. 
+Therefore, you can put hardware breakpoints in your code execution. 
+You can start, pause, stop execution of code in the hardware as you want.
+
+Whenever JTAG control is set to 1 oscillator clock will be connected to CPU,
+ else CPU will not receive clock and cannot execute any instruction.
+This way you can control the execution of instructions in hardware.
