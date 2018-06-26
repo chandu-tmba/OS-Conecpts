@@ -1,0 +1,84 @@
+1. linux boot process
+2. What is a static function, why it is used
+3. about virtual memory
+4. size of structures when bit fields are used
+5. Difference between structures and union, which one is preferred and why
+6. Difference between mutex and semaphore
+7. How interrupt is generated and how it is handled in linux
+8. How systemcall works
+9. define runlevel
+10. How a thread is scheduled
+11. DIff b/w thread and process
+which is preffered and why ?
+12. What is a volatile memory
+13. volatile variable
+14. While creating thread and process which entities will have different memories and which will share memory
+15. How free() knows, how much memory it should free.
+16. Structure padding
+Give introduction on memory layout.
+Pointer size and int variable size in different architecture-8bits, 16bits, 32bits, 64bits
+Where share memory is creating? It is physical or logical.
+Which IPC is fast, why? which is slow, why?
+What is function pointer?, where it used? why it is used?
+Give intro on compilation stages.
+How to make better synchronization for shared memory.
+Difference between structure and union.
+What is variable definition and variable declaration.
+How to find something is defined as macro or function.
+Declare different pointers with example- pointer to and array, function pointer etc.
+Declare pointer to constant variable, constant pointer to variable.
+If platform get hang or stop running in-between what you will do, how you will debug.
+What is preemptive kernel.
+Different scheduling techniques.
+While creating thread and process which entities will have different memories and which will share memory.
+Volatile and non volatile memory.
+Three files- a.c, b.c and header.h, header.h is having static variable int i, if you make one executable combining a.c, b.c and header.h, what will happen for the static variable int i.
+Difference between synchronizing two threads with global variable and mutex.
+What is three way handshake.
+Which protocol is used for ping.
+You have 10 MB RAM, how you will short 100 MB array.
+Difference between process and thread.
+what is virtual memory
+Difference between joinable and detachable thread
+Difference between Mutex and Semaphore
+Volatile and non volatile memory
+How structure will get packed ,basic of structure padding
+Basic of Assembly language
+What is Stack over flow.
+How to find the available stack size when program is running.
+What are these ls, cp, mv?
+Difference between Relocatable vs Executable.
+What is atomicity.
+Difference between Spin lock vs Mutex.
+What is priority inversion.
+What are the Optimization levels in compilation.
+Const volatile int vaar is valid or not. Any one can chamge the value of var?
+Difference between Function and ISR
+extern int i, where i will store?
+What is firmware update in general.
+What is dangling pointer, void pointer, null pointer.
+What is memory leak.
+Difference between malloc and calloc.
+How free() knows, how much memory it should free.
+Difference between normal system and embedded system.
+
+Write a program to print the sum of digit. Ex. Input-2345 - 2+3+4+5 = 14 - 1+4 = Output-5
+Write a program to find sizeof variable.
+Write a program to print binary of number.
+Write a program to toggle the bits. Ex 0x1234 = 0x0034, 0x8993 = 0x0093
+Write a program to find the number of set bits.
+Write a program to do follow. - Input-0x1234 - 0utput-0x3412
+Write a program to find string is panagram or not.
+Write a program to find a tree is BST or not.
+Write a program to traverse in matrix like below manner, it should be generic.
+6->7->11->10->9->5->->1->2->->3->4->8->12->16->15->14->13.
+   1 2 3 4
+   5 6 7 8
+   9 10 11 12
+   13 14 15 16
+Write a program to find if two link list are intersecting, if intersecting then find the point.
+Write a program to print 1,2,1,2,1,2,1,2....from two threads.
+Write a program to swap two number without using temporary variable with macro.
+
+_http://www.geeksforgeeks.org/puzzle-set-35-2-eggs-and-100-floors/
+_http://www.geeksforgeeks.org/puzzle-7-3-bulbs-and-3-switches/
