@@ -1,0 +1,121 @@
+What is dirac delta function and its Fourier transform and its importance?DMA deals with which address (physical/virtual addresses)?*.
+
+Why do we need a infinite loop in embedded systems development? What are the different ways by which you can code in a infinite loop?*.
+
+Is it necessary to start the execution of a program from the main() in C?*.
+
+Explain what are the different storage classes in C?*.
+
+What is watchdog timer?*.
+
+What are little endian and big endian types of storage? How can you identify which type of allocation a system follows?*.
+
+Scope of static variables?*.
+
+What is the difference between testing and verification of vlsi circuit?*.
+
+What is the size of the int, char and float data types?*.
+
+What is the difference between a ‘thread’ and a ‘process’?*.
+
+Explain why cannot arrays be passed by values to functions?*.
+
+Explain can microcontroller work independently?
+
+What is interrupt latency?*.
+
+What type of registers containsan (INTEL) CPU?.
+
+Can structures be passed to the functions by value?*.
+
+How to define a structure with bit field members?
+
+what is an anti aliasing filter? Why is it required?*.
+
+Advantages and disadvantagesof using macro and inline functions?*
+
+Explain Scope of static variables?*.Explain what are the different qualifiers in C?*
+
+What are hard and soft Real time systems?*.
+
+How is function itoa() written inC?*.
+
+What is difference between micro processor & micro controller?*.
+
+Explain Order of constructor and destructor call in case of multiple inheritance?*.
+
+Explain What will this return malloc(sizeof(-10))?*.
+
+What do you mean by interrupt latency?*.
+
+What is a semaphore? what arethe different types of semaphore?*.
+
+Explain Can structures be passed to the functions by value?*.
+
+IS 8085 an embedded system?*
+
+What are the advantages and disadvantages of using macro and inline functions?*
+
+Explain What are the 5 differenttypes of inheritance relationship?*.
+
+What is ISR? Can they be passed any parameter and can they return a value?*.
+
+What typecast is applied when we have a signed and an unsigned int in an expression?*.
+
+What is the order of calling for the constructors and destructors in case of objects of inherited classes?*.
+
+a=7; b=8; x=a++-b; printf(“%d”, x ); What does this code give asoutput?*.What is the role of segment register?*.
+
+Explain what is interrupt latency?*.
+
+What is pass by value and passby reference? How are structure passed as arguments?*.
+
+What does malloc do? What will happen if we have a statement like malloc(sizeof(0));*.
+
+What is Concurrency? Explain with example Deadlock and Starvation.*
+
+Explain the properties of a Object oriented programming language.*
+
+Explain can we have constant volatile variable?*.
+
+What is the difference between embedded systems and the system in which rtos is running?*.
+
+Explain the working of Virtual Memory?*.
+
+What is a memory leak? What is a segmentation fault?*.
+
+While writing interrupt handlers(ISR), which are points needed to be considered?*.
+
+What is the difference between fifo and the memory?*.
+
+Explain what is interrupt latency? How can we reduce it?*.
+
+What is the use of having the const qualifier?*.What is plc system?*.
+
+Explain Operations involving unsigned and signed? Unsigned will be converted to signed?*.
+
+Explain What happens when recursion functions are declared inline?*.
+
+What is the volatile keyword used for?*.
+
+What are recursive functions? Can we make them in line?*.
+
+What is difference between using a macro and a in line function?*.
+
+Explain what is the difference between embedded systems and the system in which RTOS is running?*.
+
+Explain Difference between object oriented and object based languages?*.
+
+Why cannot arrays be passed by values to functions?*.
+
+Can we use semaphore or mutex or spin lock in interrupt context in linux kernel?*
+
+What is meant by a forward reference in C?*.
+
+ow are variables mapped across to the various memories by the C compiler?
+
+How to implement a fourth order Butterworth LP filter at 1kHz if sampling frequency is 8kHz?*.
+
+What is the scope of a function that is declared as static?*.
+
+Write a constant time consuming statement lot finding out If a given number Is a power of 2
